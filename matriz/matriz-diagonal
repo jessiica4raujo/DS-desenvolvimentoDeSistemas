@@ -1,0 +1,23 @@
+package ds_exercicios;
+ 
+public class exercicio03 {
+ 
+	public static void main(String[] args) {	
+			int [] [] m = new int [4]  [4];
+			int numero = 1;
+			for(int coluna = 0; coluna < 4; coluna++) {
+				for(int linha = 0; linha < 4; linha++) {
+					m [coluna] [linha] = numero;
+					numero++;
+				}
+			}
+
+			for (int coluna = 0; coluna<4; coluna++) {
+				for(int linha = 0; linha < 1; linha++) {
+					System.out.print(m [coluna] [coluna] + " " );
+				}
+				System.out.println();
+			}
+		}
+ 
+	}
